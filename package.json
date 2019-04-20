@@ -1,31 +1,36 @@
 {
-  "name": "typescript-vue-starter",
+  "name": "vuejs-trello-clone",
   "version": "1.0.0",
   "private": true,
-  "description": "",
+  "description": "This quick start guide will teach you how to get TypeScript and [Vue](https://vuejs.org) working together.\r This guide is flexible enough that any steps here can be used to integrate TypeScript into an existing Vue project.",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": {
-    "name": "Daniel Rosenwasser",
-    "url": "https://github.com/DanielRosenwasser"
-  },
+  "author": "Daniel Rosenwasser (https://github.com/DanielRosenwasser)",
   "license": "Apache-2.0",
   "dependencies": {
-    "vue": "^2.5.2",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^6.0.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
-    "css-loader": "^0.28.1",
-    "ts-loader": "^2.0.3",
-    "typescript": "^2.7.2",
-    "vue-loader": "^12.0.3",
-    "vue-template-compiler": "^2.5.2",
-    "webpack": "^2.5.0"
-  }
+    "css-loader": "^0.28.11",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.9.2",
+    "vue": "^2.6.10",
+    "vue-loader": "^12.2.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alee02/vuejs-trello-clone-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alee02/vuejs-trello-clone-typescript/issues"
+  },
+  "homepage": "https://github.com/Alee02/vuejs-trello-clone-typescript#readme"
 }
