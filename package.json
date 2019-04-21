@@ -12,18 +12,38 @@
   "author": "Daniel Rosenwasser (https://github.com/DanielRosenwasser)",
   "license": "Apache-2.0",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
+    "tsc": "^1.20150623.0",
+    "vue": "^2.6.6",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^6.0.0",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "css-loader": "^0.28.11",
+    "css-loader": "^2.1.1",
     "ts-loader": "^2.3.7",
     "typescript": "^2.9.2",
     "vue": "^2.6.10",
     "vue-loader": "^12.2.2",
-    "vue-template-compiler": "^2.6.10",
-    "webpack": "^2.7.0"
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^2.7.0",
+    "@fullhuman/postcss-purgecss": "^1.1.0",
+    "@ky-is/vue-cli-plugin-tailwind": "^1.6.0",
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "postcss-preset-env": "^6.3.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "tailwindcss": "^0.7.0",
+    "vue-cli-plugin-fontawesome": "^0.2.0"
   },
   "repository": {
     "type": "git",
